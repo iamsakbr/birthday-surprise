@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================
+         MUSIK
+    ====================================== -->
+
+    <audio id="birthdayMusic" loop preload="auto">
+        <source src="./music/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- =====================================
+         HALAMAN PEMBUKA
+    ====================================== -->
+
+    <section class="opening" id="opening">
+
+        <div class="opening-content">
+
+            <div class="cake">
+                🎂
+            </div>
+
+            <p class="small-text">
+                A Special Day For You
+            </p>
+
+            <h1>
+                Happy Birthday
+            </h1>
+
+            <h2>
+                Ghina Haniyah Sayang ❤️
+            </h2>
+
+            <p class="opening-description">
+                Ada sedikit kejutan untuk kamu...
+            </p>
+
+            <button
+                class="open-button"
+                id="openButton"
+                onclick="openSurprise()">
+
+                💌 Buka Surprise
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         ISI WEBSITE
+    ====================================== -->
+
+    <main id="mainContent">
+
+
+        <!-- =================================
+             HERO
+        ================================== -->
+
+        <section class="hero">
+
+            <div class="floating-heart heart1">
+                ❤️
+            </div>
+
+            <div class="floating-heart heart2">
+                💖
+            </div>
+
+            <div class="floating-heart heart3">
+                💕
+            </div>
+
+            <div class="hero-content">
+
+                <p class="subtitle">
+                    TODAY IS YOUR SPECIAL DAY
+                </p>
+
+                <h1>
+                    Happy Birthday,
+                    <span>Someone Special</span>
+                </h1>
+
+                <p class="hero-text">
+                    Semoga hari ini menjadi salah satu hari
+                    paling indah dan berkesan untukmu.
+                </p>
+
+                <div class="birthday-date">
+                    🎂 07 Oktober 2026
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             GALERI FOTO
+        ================================== -->
+
+        <section class="photo-section">
+
+            <div class="section-title">
+
+                <span>
+                    📸
+                </span>
+
+                <h2>
+                    Our Memories
+                </h2>
+
+                <p>
+                    Beberapa momen yang ingin selalu diingat.
+                </p>
+
+            </div>
+
+
+            <div class="gallery">
+
+
+                <!-- FOTO 1 -->
+
+                <div class="photo-card">
+
+                    <img
+                        src="./images/foto1.jpg"
+                        alt="Foto kenangan 1">
+
+                    <div class="photo-overlay">
+
+                        <span>
+                            Beautiful Moment ❤️
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO 2 -->
+
+                <div class="photo-card">
+
+                    <img
+                        src="./images/foto2.jpg"
+                        alt="Foto kenangan 2">
+
+                    <div class="photo-overlay">
+
+                        <span>
+                            Sweet Memory 💕
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FOTO 3 -->
+
+                <div class="photo-card">
+
+                    <img
+                        src="./images/foto3.jpg"
+                        alt="Foto kenangan 3">
+
+                    <div class="photo-overlay">
+
+                        <span>
+                            Forever Remembered ✨
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             PESAN ULANG TAHUN
+        ================================== -->
+
+        <section class="message-section">
+
+            <div class="message-card">
+
+                <div class="envelope">
+                    💌
+                </div>
+
+                <h2>
+                    A Little Message For You
+                </h2>
+
+                <div class="message-line"></div>
+
+
+                <p>
+                    Selamat ulang tahun sayangku
+                </p>
+
+
+                <p>
+                    Semoga di usia yang baru ini,
+                    semua impian, harapan, dan cita-cita
+                    yang kamu punya perlahan menjadi kenyataan.
+                </p>
+
+
+                <p>
+                    Semoga kamu selalu dikelilingi oleh
+                    orang-orang yang menyayangimu,
+                    diberikan kesehatan, kebahagiaan,
+                    dan banyak alasan untuk tersenyum.
+                </p>
+
+
+                <p>
+                    Jangan pernah berhenti menjadi dirimu sendiri,
+                    karena kamu sudah cukup istimewa
+                    dengan caramu sendiri.
+                </p>
+
+
+                <p class="special-message">
+
+                    Once again...
+
+                    <br>
+
+                    <strong>
+                        Happy Birthday ❤️
+                    </strong>
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             MAKE A WISH
+        ================================== -->
+
+        <section class="wish-section">
+
+            <div class="wish-content">
+
+                <div class="big-cake">
+                    🎂
+                </div>
+
+                <h2>
+                    Make A Wish ✨
+                </h2>
+
+                <p>
+                    Pejamkan mata, buat satu harapan,
+                    lalu tiup lilinnya...
+                </p>
+
+                <button
+                    class="wish-button"
+                    onclick="makeWish()">
+
+                    🕯️ Tiup Lilin
+
+                </button>
+
+
+                <div id="wishResult"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             FOOTER
+        ================================== -->
+
+        <footer>
+
+            <p>
+                Made with ❤️ for someone special
+            </p>
+
+            <p class="footer-small">
+                © 2026 AndhikaIlham
+            </p>
+
+        </footer>
+
+
+    </main>
+
+
+    <!-- =====================================
+         TOMBOL MUSIK
+    ====================================== -->
+
+    <button
+        class="music-button"
+        id="musicButton"
+        onclick="toggleMusic()">
+
+        🎵
+
+    </button>
+
+
+    <!-- =====================================
+         CONFETTI
+    ====================================== -->
+
+    <div id="confetti-container"></div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
